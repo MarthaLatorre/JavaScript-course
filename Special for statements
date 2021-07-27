@@ -1,0 +1,13 @@
+ //special for statements//
+  for (let a in {x:1,y:3}) { /*Itera sobre propiedades*/
+    console.log(a);
+  }
+
+  for (let b of [4,7]) {  /*itera sobre los valores*/
+    console.log(b);
+  }
+
+  /*ejemplo con String*/
+   for (let c of "hello") {  /*itera sobre los valores*/
+    console.log(c);
+  }
